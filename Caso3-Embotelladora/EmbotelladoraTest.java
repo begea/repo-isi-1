@@ -70,7 +70,7 @@ public class EmbotelladoraTest
 		grande = 2;
 		total = 10;
 		int numPequena = embotelladora.calculaBotellasPequenas(pequena, grande, total);
-		assertTrue ("testParaAñoBisiestoSegunB3", numPequena == 0);
+		assertTrue ("testParaAñoBisiestoSegunB5", numPequena == 0);
 	}
 
 	// Test para calcular las botellas pequeñas según el bloque b6:
