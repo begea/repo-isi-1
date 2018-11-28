@@ -96,7 +96,7 @@ public class EmbotelladoraTest
 		total = -1;
 		embotelladora.calculaBotellasPequenas(pequena, grande, total);
 	}
-
+	
 	// Test para calcular las botellas pequeñas según el bloque b7:
 	// "Cantidad de botellas/total de litros inválidos"
 	// Recorre el camino de prueba ii = [1, 3, 4]
@@ -108,4 +108,5 @@ public class EmbotelladoraTest
 		total = 5;
 		embotelladora.calculaBotellasPequenas(pequena, grande, total);
 	}
+
 }
